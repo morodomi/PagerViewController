@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1FF110A154BFFE400B90834 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FF1109154BFFE400B90834 /* UIKit.framework */; };
+		F1FF110C154BFFE400B90834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FF110B154BFFE400B90834 /* Foundation.framework */; };
+		F1FF110E154BFFE400B90834 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FF110D154BFFE400B90834 /* CoreGraphics.framework */; };
+		F1FF1114154BFFE400B90834 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1112154BFFE400B90834 /* InfoPlist.strings */; };
+		F1FF1116154BFFE400B90834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1115154BFFE400B90834 /* main.m */; };
+		F1FF111A154BFFE400B90834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1119154BFFE400B90834 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1FF1105154BFFE400B90834 /* PagerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FF1109154BFFE400B90834 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1FF110B154BFFE400B90834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1FF110D154BFFE400B90834 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1FF1111154BFFE400B90834 /* PagerViewController-Info.plist */ = {isa = PBXFileReference; path = "PagerViewController-Info.plist"; sourceTree = "<group>"; };
+		F1FF1113154BFFE400B90834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1FF1115154BFFE400B90834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1FF1117154BFFE400B90834 /* PagerViewController-Prefix.pch */ = {isa = PBXFileReference; path = "PagerViewController-Prefix.pch"; sourceTree = "<group>"; };
+		F1FF1118154BFFE400B90834 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1FF1119154BFFE400B90834 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FF1102154BFFE400B90834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FF110A154BFFE400B90834 /* UIKit.framework in Frameworks */,
+				F1FF110C154BFFE400B90834 /* Foundation.framework in Frameworks */,
+				F1FF110E154BFFE400B90834 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1FF10FA154BFFE400B90834 = {
+			isa = PBXGroup;
+			children = (
+				F1FF110F154BFFE400B90834 /* PagerViewController */,
+				F1FF1108154BFFE400B90834 /* Frameworks */,
+				F1FF1106154BFFE400B90834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FF1106154BFFE400B90834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF1105154BFFE400B90834 /* PagerViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FF1108154BFFE400B90834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF1109154BFFE400B90834 /* UIKit.framework */,
+				F1FF110B154BFFE400B90834 /* Foundation.framework */,
+				F1FF110D154BFFE400B90834 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1FF110F154BFFE400B90834 /* PagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF1118154BFFE400B90834 /* AppDelegate.h */,
+				F1FF1119154BFFE400B90834 /* AppDelegate.m */,
+				F1FF1110154BFFE400B90834 /* Supporting Files */,
+			);
+			path = PagerViewController;
+			sourceTree = "<group>";
+		};
+		F1FF1110154BFFE400B90834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF1111154BFFE400B90834 /* PagerViewController-Info.plist */,
+				F1FF1112154BFFE400B90834 /* InfoPlist.strings */,
+				F1FF1115154BFFE400B90834 /* main.m */,
+				F1FF1117154BFFE400B90834 /* PagerViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FF1104154BFFE400B90834 /* PagerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FF111D154BFFE400B90834 /* Build configuration list for PBXNativeTarget "PagerViewController" */;
+			buildPhases = (
+				F1FF1101154BFFE400B90834 /* Sources */,
+				F1FF1102154BFFE400B90834 /* Frameworks */,
+				F1FF1103154BFFE400B90834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagerViewController;
+			productName = PagerViewController;
+			productReference = F1FF1105154BFFE400B90834 /* PagerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FF10FC154BFFE400B90834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F1FF10FF154BFFE400B90834 /* Build configuration list for PBXProject "PagerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1FF10FA154BFFE400B90834;
+			productRefGroup = F1FF1106154BFFE400B90834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FF1104154BFFE400B90834 /* PagerViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FF1103154BFFE400B90834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FF1114154BFFE400B90834 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FF1101154BFFE400B90834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FF1116154BFFE400B90834 /* main.m in Sources */,
+				F1FF111A154BFFE400B90834 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1FF1112154BFFE400B90834 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FF1113154BFFE400B90834 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FF111B154BFFE400B90834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1FF111C154BFFE400B90834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FF111E154BFFE400B90834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagerViewController/PagerViewController-Prefix.pch";
+				INFOPLIST_FILE = "PagerViewController/PagerViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1FF111F154BFFE400B90834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PagerViewController/PagerViewController-Prefix.pch";
+				INFOPLIST_FILE = "PagerViewController/PagerViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FF10FF154BFFE400B90834 /* Build configuration list for PBXProject "PagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FF111B154BFFE400B90834 /* Debug */,
+				F1FF111C154BFFE400B90834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FF111D154BFFE400B90834 /* Build configuration list for PBXNativeTarget "PagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FF111E154BFFE400B90834 /* Debug */,
+				F1FF111F154BFFE400B90834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FF10FC154BFFE400B90834 /* Project object */;
+}
