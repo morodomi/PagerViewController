@@ -13,6 +13,14 @@
 		F1FF1114154BFFE400B90834 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1112154BFFE400B90834 /* InfoPlist.strings */; };
 		F1FF1116154BFFE400B90834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1115154BFFE400B90834 /* main.m */; };
 		F1FF111A154BFFE400B90834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1119154BFFE400B90834 /* AppDelegate.m */; };
+		F1FF1124154C019700B90834 /* PagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1122154C019700B90834 /* PagerViewController.m */; };
+		F1FF1125154C019700B90834 /* PagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1123154C019700B90834 /* PagerViewController.xib */; };
+		F1FF1129154C02F200B90834 /* Document1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1127154C02F200B90834 /* Document1ViewController.m */; };
+		F1FF112A154C02F200B90834 /* Document1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1128154C02F200B90834 /* Document1ViewController.xib */; };
+		F1FF112E154C031800B90834 /* Document2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF112C154C031800B90834 /* Document2ViewController.m */; };
+		F1FF112F154C031800B90834 /* Document2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FF112D154C031800B90834 /* Document2ViewController.xib */; };
+		F1FF1133154C034700B90834 /* Document3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF1131154C034600B90834 /* Document3ViewController.m */; };
+		F1FF1134154C034700B90834 /* Document3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FF1132154C034700B90834 /* Document3ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +28,24 @@
 		F1FF1109154BFFE400B90834 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F1FF110B154BFFE400B90834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1FF110D154BFFE400B90834 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F1FF1111154BFFE400B90834 /* PagerViewController-Info.plist */ = {isa = PBXFileReference; path = "PagerViewController-Info.plist"; sourceTree = "<group>"; };
+		F1FF1111154BFFE400B90834 /* PagerViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PagerViewController-Info.plist"; sourceTree = "<group>"; };
 		F1FF1113154BFFE400B90834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1FF1115154BFFE400B90834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1FF1117154BFFE400B90834 /* PagerViewController-Prefix.pch */ = {isa = PBXFileReference; path = "PagerViewController-Prefix.pch"; sourceTree = "<group>"; };
-		F1FF1118154BFFE400B90834 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1FF1117154BFFE400B90834 /* PagerViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PagerViewController-Prefix.pch"; sourceTree = "<group>"; };
+		F1FF1118154BFFE400B90834 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1FF1119154BFFE400B90834 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1FF1121154C019700B90834 /* PagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PagerViewController.h; path = Controller/PagerViewController.h; sourceTree = "<group>"; };
+		F1FF1122154C019700B90834 /* PagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PagerViewController.m; path = Controller/PagerViewController.m; sourceTree = "<group>"; };
+		F1FF1123154C019700B90834 /* PagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PagerViewController.xib; path = Controller/PagerViewController.xib; sourceTree = "<group>"; };
+		F1FF1126154C02F200B90834 /* Document1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Document1ViewController.h; path = Controller/Document1ViewController.h; sourceTree = "<group>"; };
+		F1FF1127154C02F200B90834 /* Document1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Document1ViewController.m; path = Controller/Document1ViewController.m; sourceTree = "<group>"; };
+		F1FF1128154C02F200B90834 /* Document1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Document1ViewController.xib; path = Controller/Document1ViewController.xib; sourceTree = "<group>"; };
+		F1FF112B154C031800B90834 /* Document2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Document2ViewController.h; path = Controller/Document2ViewController.h; sourceTree = "<group>"; };
+		F1FF112C154C031800B90834 /* Document2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Document2ViewController.m; path = Controller/Document2ViewController.m; sourceTree = "<group>"; };
+		F1FF112D154C031800B90834 /* Document2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Document2ViewController.xib; path = Controller/Document2ViewController.xib; sourceTree = "<group>"; };
+		F1FF1130154C034600B90834 /* Document3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Document3ViewController.h; path = Controller/Document3ViewController.h; sourceTree = "<group>"; };
+		F1FF1131154C034600B90834 /* Document3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Document3ViewController.m; path = Controller/Document3ViewController.m; sourceTree = "<group>"; };
+		F1FF1132154C034700B90834 /* Document3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Document3ViewController.xib; path = Controller/Document3ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,7 @@
 			children = (
 				F1FF1118154BFFE400B90834 /* AppDelegate.h */,
 				F1FF1119154BFFE400B90834 /* AppDelegate.m */,
+				F1FF1120154C017400B90834 /* Controller */,
 				F1FF1110154BFFE400B90834 /* Supporting Files */,
 			);
 			path = PagerViewController;
@@ -88,6 +109,25 @@
 				F1FF1117154BFFE400B90834 /* PagerViewController-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1FF1120154C017400B90834 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF1121154C019700B90834 /* PagerViewController.h */,
+				F1FF1122154C019700B90834 /* PagerViewController.m */,
+				F1FF1123154C019700B90834 /* PagerViewController.xib */,
+				F1FF1126154C02F200B90834 /* Document1ViewController.h */,
+				F1FF1127154C02F200B90834 /* Document1ViewController.m */,
+				F1FF1128154C02F200B90834 /* Document1ViewController.xib */,
+				F1FF112B154C031800B90834 /* Document2ViewController.h */,
+				F1FF112C154C031800B90834 /* Document2ViewController.m */,
+				F1FF112D154C031800B90834 /* Document2ViewController.xib */,
+				F1FF1130154C034600B90834 /* Document3ViewController.h */,
+				F1FF1131154C034600B90834 /* Document3ViewController.m */,
+				F1FF1132154C034700B90834 /* Document3ViewController.xib */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1FF1114154BFFE400B90834 /* InfoPlist.strings in Resources */,
+				F1FF1125154C019700B90834 /* PagerViewController.xib in Resources */,
+				F1FF112A154C02F200B90834 /* Document1ViewController.xib in Resources */,
+				F1FF112F154C031800B90834 /* Document2ViewController.xib in Resources */,
+				F1FF1134154C034700B90834 /* Document3ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +197,10 @@
 			files = (
 				F1FF1116154BFFE400B90834 /* main.m in Sources */,
 				F1FF111A154BFFE400B90834 /* AppDelegate.m in Sources */,
+				F1FF1124154C019700B90834 /* PagerViewController.m in Sources */,
+				F1FF1129154C02F200B90834 /* Document1ViewController.m in Sources */,
+				F1FF112E154C031800B90834 /* Document2ViewController.m in Sources */,
+				F1FF1133154C034700B90834 /* Document3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +237,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -206,7 +254,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -219,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagerViewController/PagerViewController-Prefix.pch";
 				INFOPLIST_FILE = "PagerViewController/PagerViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -230,6 +279,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PagerViewController/PagerViewController-Prefix.pch";
 				INFOPLIST_FILE = "PagerViewController/PagerViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

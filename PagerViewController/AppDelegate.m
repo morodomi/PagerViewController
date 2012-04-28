@@ -1,19 +1,18 @@
-//
-//  AppDelegate.m
-//  PagerViewController
-//
-//  Created by 政洋 諸富 on 12/04/28.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
-//
+/**
+ * @author dommy <shonan.shachu at gmail.com>
+ * @version 1.0.0 updated on 2012-04-28
+ */
 
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize pagerViewController = _pagerViewController;
 
 - (void)dealloc
 {
+    [_pagerViewController release];
     [_window release];
     [super dealloc];
 }
@@ -22,7 +21,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    // declare PagerViewController and add to the window
+    self.pagerViewController = [[PagerViewController alloc] initWithNibName:@"PagerViewController" bundle:nil];
+    [self.window setRootViewController:self.pagerViewController];
     [self.window makeKeyAndVisible];
     return YES;
 }

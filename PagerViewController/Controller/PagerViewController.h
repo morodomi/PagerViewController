@@ -1,13 +1,13 @@
-//
-//  PagerViewController.h
-//  PagerViewController
-//
-//  Created by 政洋 諸富 on 12/04/28.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
-//
+/**
+ * @author dommy <shonan.shachu at gmail.com>
+ * @version 1.0.0 updated on 2012-04-28
+ */
 
 #import <UIKit/UIKit.h>
 
-@interface PagerViewController : UIViewController
+@interface PagerViewController : UIViewController <UIScrollViewDelegate>
+
+@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) IBOutlet UIPageControl *pageControl;
 
 @end
