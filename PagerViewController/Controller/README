@@ -1,0 +1,2 @@
+PagerViewController
+    Controls other UIViewControlelrs to scroll horizontal ways. To change this UI wth your own UIVIewControllers, change DocuemntViewControllers to your own UIViewControllers. If you have any questions, please ask me.
