@@ -3,3 +3,6 @@ Author
 
 Description
     PagerViewController which controls UIViewControllers to scroll horizontal ways.
+
+License
+    Apache Software License 2.0
